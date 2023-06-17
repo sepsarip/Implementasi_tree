@@ -4,7 +4,7 @@ using namespace std;
 //create struk node
 struct Node{
     char label;
-    Node *left, *right;
+    Node *left, *right, *parent;
 
 };
 
